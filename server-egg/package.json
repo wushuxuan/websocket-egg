@@ -1,0 +1,19 @@
+{
+  "name": "server-egg",
+  "version": "1.0.0",
+  "description": "websocket",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev  --sticky",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wushuxuan",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.27.0",
+    "egg-socket.io": "^4.1.6"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.15.0"
+  }
+}
