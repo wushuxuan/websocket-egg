@@ -1,0 +1,180 @@
+2020-08-05 15:17:29,097 ERROR 43400 [-/127.0.0.1/-/13ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\appsWorkspace\egg-websocket\node_modules\_egg@2.27.0@egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\appsWorkspace\egg-websocket\node_modules\_egg@2.27.0@egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\appsWorkspace\egg-websocket\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\appsWorkspace\egg-websocket\node_modules\_egg-security@2.8.0@egg-security\app\extend\context.js:104:13)
+    at csrf (D:\appsWorkspace\egg-websocket\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\appsWorkspace\egg-websocket\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\appsWorkspace\egg-websocket\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (D:\appsWorkspace\egg-websocket\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (D:\appsWorkspace\egg-websocket\node_modules\_koa-session@6.0.0@koa-session\index.js:41:13)
+    at dispatch (D:\appsWorkspace\egg-websocket\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 43400
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 15:50:20,318 ERROR 71000 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 71000
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 16:00:55,437 ERROR 60856 nodejs.TypeError: Cannot read property 'call' of undefined (uncaughtException throw 1 times on pid:60856)
+    at Socket.<anonymous> (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\egg-socket.io\lib\io.js:94:23)
+    at Socket.emit (events.js:326:22)
+    at Socket.emit (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\socket.io\lib\socket.js:142:10)
+    at Socket.onclose (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\socket.io\lib\socket.js:454:8)
+    at Client.onclose (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\socket.io\lib\client.js:254:24)
+    at Socket.emit (events.js:326:22)
+    at Socket.onClose (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\engine.io\lib\socket.js:318:10)
+    at Object.onceWrapper (events.js:420:28)
+    at WebSocket.emit (events.js:314:20)
+    at WebSocket.Transport.onClose (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\engine.io\lib\transport.js:127:8)
+
+pid: 60856
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 16:21:08,720 ERROR 71000 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 71000
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 16:28:53,510 ERROR 38868 nodejs.RangeError: Maximum call stack size exceeded
+    at Function.[Symbol.hasInstance] (<anonymous>)
+    at Function.isBuffer (buffer.js:519:12)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:44:66)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:58:59)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:58:59)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:58:59)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:58:59)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:58:59)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:58:59)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:58:59)
+
+pid: 38868
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 16:29:53,250 ERROR 21956 nodejs.RangeError: Maximum call stack size exceeded
+    at Function.[Symbol.hasInstance] (<anonymous>)
+    at Function.isBuffer (buffer.js:519:12)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:44:66)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:58:59)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:58:59)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:58:59)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:58:59)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:58:59)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:58:59)
+    at hasBinary (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\has-binary2\index.js:58:59)
+
+pid: 21956
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 17:04:03,905 ERROR 69708 nodejs.TypeError: Cannot read property 'args' of undefined
+    at D:\appsWorkspace\websocket-wechat\egg-websocket\app\io\middleware\packer.js:10:50
+    at dispatch (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\egg-socket.io\node_modules\koa-compose\index.js:42:32)
+    at session (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\egg-socket.io\node_modules\koa-compose\index.js:42:32)
+    at D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\egg-socket.io\node_modules\koa-compose\index.js:34:12
+    at module.exports (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\egg-socket.io\lib\packetMiddlewareInit.js:19:3)
+    at Array.<anonymous> (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\egg-socket.io\lib\io.js:82:9)
+    at run (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\socket.io\lib\socket.js:559:11)
+    at Socket.run (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\socket.io\lib\socket.js:571:3)
+    at Socket.dispatch (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\socket.io\lib\socket.js:531:8)
+
+pid: 69708
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 17:30:11,230 ERROR 95480 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 95480
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 17:30:48,255 ERROR 95480 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 95480
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 17:31:22,530 ERROR 95480 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 95480
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 17:33:26,951 ERROR 95480 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 95480
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 17:36:04,420 ERROR 95480 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 95480
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 17:36:05,929 ERROR 95480 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 95480
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 17:36:06,870 ERROR 95480 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:207:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 95480
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 17:37:02,969 ERROR 99752 nodejs.TypeError: [egg-socket.io] controller execute error: Cannot read property 'emit' of undefined
+    at DefaultController.index (D:\appsWorkspace\websocket-wechat\egg-websocket\app\io\controller\default.js:11:30)
+    at Object.callFn (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Socket.<anonymous> (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\egg-socket.io\lib\io.js:104:23)
+    at Socket.emit (events.js:314:20)
+    at D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+
+pid: 99752
+hostname: DESKTOP-CR0A8R9
+
+2020-08-07 17:37:03,722 ERROR 99752 nodejs.TypeError: [egg-socket.io] controller execute error: Cannot read property 'emit' of undefined
+    at DefaultController.index (D:\appsWorkspace\websocket-wechat\egg-websocket\app\io\controller\default.js:11:30)
+    at Object.callFn (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Socket.<anonymous> (D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\egg-socket.io\lib\io.js:104:23)
+    at Socket.emit (events.js:314:20)
+    at D:\appsWorkspace\websocket-wechat\egg-websocket\node_modules\socket.io\lib\socket.js:528:12
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+
+pid: 99752
+hostname: DESKTOP-CR0A8R9
+
