@@ -1,0 +1,21 @@
+<form nz-form [formGroup]="validateForm" (ngSubmit)="submitForm()">
+    <nz-form-item>
+      <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="message">message</nz-form-label>
+      <nz-form-control [nzSm]="14" [nzXs]="24" nzErrorTip="The input is not valid name!">
+        <input nz-input formControlName="message" id="message" />
+      </nz-form-control>
+    </nz-form-item>
+    <nz-form-item nz-row class="register-area">
+      <nz-form-control [nzSpan]="14" [nzOffset]="6">
+        <button nz-button nzType="primary">Send</button>
+      </nz-form-control>
+    </nz-form-item>
+  </form>
+
+
+  <nz-list nzBordered nzHeader="Header" nzFooter="Footer">
+    <nz-list-item *ngFor="let item of list">
+      {{ item }}
+    </nz-list-item>
+  </nz-list>
+  
