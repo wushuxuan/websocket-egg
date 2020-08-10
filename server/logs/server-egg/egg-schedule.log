@@ -1,0 +1,6 @@
+2020-08-10 09:22:04,292 INFO 20196 [Timer] D:\appsWorkspace\websocket-egg\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 68875710ms at 2020-08-11 04:30:00.002
+2020-08-10 09:22:04,293 INFO 20196 [Timer] D:\appsWorkspace\websocket-egg\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 52675708ms at 2020-08-11 00:00:00.001
+2020-08-10 09:22:04,293 INFO 20196 [Timer] D:\appsWorkspace\websocket-egg\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52676707ms at 2020-08-11 00:00:01.000
+2020-08-10 09:22:04,132 INFO 30104 [egg-schedule]: register schedule D:\appsWorkspace\websocket-egg\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-10 09:22:04,132 INFO 30104 [egg-schedule]: register schedule D:\appsWorkspace\websocket-egg\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-10 09:22:04,132 INFO 30104 [egg-schedule]: register schedule D:\appsWorkspace\websocket-egg\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

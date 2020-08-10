@@ -3,7 +3,7 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 import io from 'socket.io-client'
 
 //和后端服务建立链接
-const socket = io('ws://127.0.0.1:7002/');
+const socket = io('ws://127.0.0.1:7001/');
 
 @Component({
   selector: 'app-welcome',

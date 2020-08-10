@@ -2,8 +2,8 @@
 
 # dependencies
 /node_modules
-/server-egg/node_modules
-/web-angular/node_modules
+/server/node_modules
+/web/node_modules
 
 # profiling files
 
